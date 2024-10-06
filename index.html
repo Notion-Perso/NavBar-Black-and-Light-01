@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NavBar-Black and Light-01</title>
+    <!-- ⇓ SCRIPT (Module) ⇓  -->
     <script src="jquery.min.js"></script>
 </head>
 
 <body>
+    <!-- ⇓ TOUT ⇓ -->
     <div class="button-group">
 
         <!--   SVG 1 ACCUEIL  -->
+
         <div class="active">
-            <svg viewBox="-150 -150 1324 1324">
-                <path class="cls-1"
-                    d="M845.63,701.58c-152.54-117.49-280.12-257.93-393.21-413.02-1.54,3.19-2.86,5.96-4.22,8.72-11.9,24.22-28.3,45.34-45.57,65.83-34.97,41.53-73.18,80.01-113.67,116.02-47.97,42.67-97.34,83.75-146.11,125.52-.47.4-1.03.69-2.24,1.5-1.84-8.77-3.86-17.06-5.28-25.46-14.73-88-3.1-172.3,39.22-251.02,56.42-104.96,143-172.94,260.01-196.92,127.08-26.05,240.14,6.51,336.05,93.98,63.72,58.11,102.62,130.92,117.69,215.78,15.97,89.94,2.15,175.55-40.92,256.28-.37.69-.83,1.33-1.75,2.79h0Z" />
-                <path class="cls-1"
-                    d="M146.57,625.86c16.89-7.08,33.68-13.52,49.96-21.05,58.89-27.25,114.97-59.67,170.07-93.8,27.74-17.19,55.1-35,83.24-52.92,111.15,110.51,235.07,204.34,374.98,276.45-72.66,108.85-211.34,182.33-362.6,162.07-170.49-22.84-281.95-150.73-315.66-270.74h0Z" />
-            </svg>
+            <a href="https://www.youtube.com/" target="_blank">
+                <svg viewBox="-150 -150 1324 1324">
+                    <path class="cls-1"
+                        d="M845.63,701.58c-152.54-117.49-280.12-257.93-393.21-413.02-1.54,3.19-2.86,5.96-4.22,8.72-11.9,24.22-28.3,45.34-45.57,65.83-34.97,41.53-73.18,80.01-113.67,116.02-47.97,42.67-97.34,83.75-146.11,125.52-.47.4-1.03.69-2.24,1.5-1.84-8.77-3.86-17.06-5.28-25.46-14.73-88-3.1-172.3,39.22-251.02,56.42-104.96,143-172.94,260.01-196.92,127.08-26.05,240.14,6.51,336.05,93.98,63.72,58.11,102.62,130.92,117.69,215.78,15.97,89.94,2.15,175.55-40.92,256.28-.37.69-.83,1.33-1.75,2.79h0Z" />
+                    <path class="cls-1"
+                        d="M146.57,625.86c16.89-7.08,33.68-13.52,49.96-21.05,58.89-27.25,114.97-59.67,170.07-93.8,27.74-17.19,55.1-35,83.24-52.92,111.15,110.51,235.07,204.34,374.98,276.45-72.66,108.85-211.34,182.33-362.6,162.07-170.49-22.84-281.95-150.73-315.66-270.74h0Z" />
+                </svg></a>
         </div>
+
 
         <!-- SVG 2 BANQUE -->
         <div>
@@ -109,10 +114,7 @@
         </div>
     </div>
 
-
-
-    <!-- SVG STYLE HTML  -->
-
+    <!-- ⇓ SVG STYLE HTML ⇓ -->
     <svg class="svg-filters">
         <defs>
             <radialGradient id="active" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -131,13 +133,13 @@
         </defs>
     </svg>
 
-    <!-- STYLE CSS  -->
+    <!-- ⇓ STYLE CSS ⇓ -->
     <style>
         body {
             padding: 0;
             margin: 0;
             display: flex;
-            background: none;
+            /* background: #191919; */
             justify-content: center;
             min-height: 100vh;
             position: relative;
@@ -157,9 +159,13 @@
             position: relative;
             z-index: 2;
             display: flex;
-            min-width: 350px;
-            height: 70px;
-            background-color: #000;
+            /* ⇓ CHANGE LA TAILLE DU FOND ⇓ */
+            width: 300px;
+            height: 33px;
+            align-items: center;
+            justify-content: center;
+            /* ⇓ BACK BOUTON ⇓ */
+            background-color: #212121;
             border-radius: 7px;
             padding: 4px;
         }
@@ -173,7 +179,8 @@
             justify-content: center;
             margin: 1px;
             transition: 0.2s;
-            font-size: 2.5em;
+            /* ⇓ CHANGE LA TAILLE DES ICONE ⇓ */
+            font-size: 1em;
             box-shadow: inset 0 20px 4px -21px rgba(255, 255, 255, 0.4), 0 19px 13px 0 rgba(0, 0, 0, 0.3);
             color: #181818;
             position: relative;
@@ -261,8 +268,10 @@
             width: 0;
         }
     </style>
-    <!-- SCRIPT  -->
+
+    <!-- ⇓ SCRIPT ⇓  -->
     <script src="script.js"></script>
+
 </body>
 
 </html>
